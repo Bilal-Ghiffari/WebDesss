@@ -1,0 +1,166 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Area Science IT and Games",
+      "imageUrl": "image-event-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Komunitas Belajar IT",
+      "imageUrl": "image-event-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Regeneration of Informatics",
+      "imageUrl": "image-event-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Area Science IT and Games",
+      "imageUrl": "image-event-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Komunitas Belajar IT",
+      "imageUrl": "image-event-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Regeneration of Informatics",
+      "imageUrl": "image-event-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 7,
+      "title": "pelaksanaan kobit 2021",
+      "imageUrl": "image-berita-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 8,
+      "title": "pelaksanaan acara resmi reformatics 2021",
+      "imageUrl": "image-berita-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 9,
+      "title": "pelaksanaan acara IP routing 2021",
+      "imageUrl": "image-berita-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 10,
+      "title": "pelaksanaan kobit 2021",
+      "imageUrl": "image-berita-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 11,
+      "title": "pelaksanaan acara resmi reformatics 2021",
+      "imageUrl": "image-berita-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 12,
+      "title": "pelaksanaan acara IP routing 2021",
+      "imageUrl": "image-berita-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Undangan Webinar Series Seri Pertama",
+      "imageUrl": "image-news-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Undangan Webinar Series Seri Kedua",
+      "imageUrl": "image-news-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Undangan Webinar Series Seri Ketiga",
+      "imageUrl": "image-news-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Undangan Webinar Series Seri Pertama",
+      "imageUrl": "image-news-1.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Undangan Webinar Series Seri Kedua",
+      "imageUrl": "image-news-2.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Undangan Webinar Series Seri Ketiga",
+      "imageUrl": "image-news-3.png",
+      "ratio": {
+        "mobile": "1/6",
+        "md": "1/3"
+      }
+    }
+  ]
+}

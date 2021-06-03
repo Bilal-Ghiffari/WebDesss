@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "remixicon/fonts/remixicon.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* overlay */
+
+.overlay {
+  @apply absolute;
+}
+
+.overlay * {
+  @apply transition-all duration-200;
+}
+
+.overlay.hoverable > * {
+  @apply opacity-0;
+}
+
+.overlay.hoverable:hover > * {
+  @apply opacity-100;
+}
+
+.overlay .video {
+  @apply absolute transform bg-green-500 hover:bg-black transition duration-200 bg-no-repeat bg-center w-20 h-20 rounded-full items-start justify-center flex -translate-x-1/2 -translate-y-1/2;
+  background-image: url("../images/icon-play.svg#icon-play");
+  top: 50%;
+  left: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero .hero-image,
+  .hero .hero-caption {
+    min-height: 90vh;
+  }
+
+  .hero .hero-cta {
+    @apply w-12 h-12;
+    transform: translateX(-75px) translateY(-50%);
+    background-size: 37.5%;
+  }
+}
+
+.social-links a {
+  @apply inline-block h-10 w-10 leading-10 rounded-full mr-5 px-1;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-links a:hover {
+  transition: all 0.5s ease;
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* card-shadow */
+.card-shadow:hover {
+  @apply shadow-xl;
+}
+
+/* navbar */
+.main-nav-active {
+  color: #38a169 !important;
+}
+
+/* pagination */
+.paginationBttns {
+  @apply w-4/5 w-2/5 list-none flex justify-center md:justify-start my-7 md:mt-12 ml-7;
+}
+
+.paginationBttns a {
+  @apply m-2 cursor-pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
