@@ -15,6 +15,7 @@ export default function NewsItem({data}) {
         }
     }
 
+    // gallery
 
     const [users] = useState(data.slice(0,19));
     const [pageNumber, setPageNumber] = useState(0)
