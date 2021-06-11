@@ -4,6 +4,7 @@ import Homepages from 'Pages/Homepages';
 import News from 'Pages/News';
 import NewsItem from 'Pages/NewsItem';
 import AboutUs from 'Pages/AboutUs';
+import Gallery from 'Pages/Gallery';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Homepages} />
           <Route path="/AboutUs" component={AboutUs} />
-          <Route path="/news" component={News} />
-          <Route path="/news-item" component={NewsItem} />
+          <Route exact path="/News" component={News} />
+          <Route path="/News/:url/:title/:id" component={NewsItem} />
+          <Route path="/Gallery" component={Gallery} />
         </Switch>
       </Router>
       </div>

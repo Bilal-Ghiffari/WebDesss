@@ -11,7 +11,7 @@ export default function Navbar({theme, position}) {
                 <div className="flex flex-stretch items-center">
                 <div className="w-56 items-center flex">                   
                     <Link to="/" >
-                        <img style={{width: 155, height: 74}}  src="images/content/logo-footer.png" alt="Logo-Navbar" />
+                        <img style={{width: 155, height: 74}}  src="/images/content/logo-footer.png" alt="Logo-Navbar" />
                     </Link>
                 </div>
                 <div className="w-full"></div>
@@ -23,12 +23,12 @@ export default function Navbar({theme, position}) {
                             </NavLink>
                         </li>
                         <li className="mx-7 py-6 md:py-0">
-                            <NavLink  to="/news" activeClassName="main-nav-active"  className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <NavLink  to="/News" activeClassName="main-nav-active"  className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 NEWS
                             </NavLink>
                         </li>
                         <li className="mx-7 py-6 md:py-0">
-                            <NavLink  to="/gallery" activeClassName="main-nav-active"  className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <NavLink  to="/Gallery" activeClassName="main-nav-active"  className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 GALLERY
                             </NavLink>
                         </li>

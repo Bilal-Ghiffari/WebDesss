@@ -1,166 +1,27 @@
 {
-  "news": [
+  "newsitem": [
     {
       "id": 1,
-      "title": "Area Science IT and Games",
-      "imageUrl": "image-event-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
+      "title": "Apa itu ASIG?",
+      "description": "ASIG (Area of Science IT and Games) merupakan event tahunan yang dipersembahkan oleh HIMTI Paramadina. ASIG sendiri sudah berlangsung hingga 13 kali sejak tahun 2006. Awalnya, singkatan ASIG adalah Area Internet Gratis, tetapi berubah menjadi Area of Science IT and Games setelah kampus Universitas Paramadina memiliki akses internet gratis untuk seluruh mahasiswa dan dosen."
     },
+
     {
       "id": 2,
-      "title": "Komunitas Belajar IT",
-      "imageUrl": "image-event-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
+      "title": "Apa tema dan tujuan dari adanya ASIG?",
+      "description": "ASIG memiliki tema yang berbeda-beda tiap tahunnya. Namun, inti dari setiap tema yang dipilih adalah untuk memperkenalkan kecanggihan dan perkembangan teknologi. ASIG diharapkan menjadi wadah berkumpulnya seluruh lapisan penggiat Teknologi Informasi, mulai dari pelajar, mahasiswa, pengembangan, media, dan pelaku industri untuk saling terkoneksi dan berbagi pengetahuan serta pengalaman."
     },
+
     {
       "id": 3,
-      "title": "Regeneration of Informatics",
-      "imageUrl": "image-event-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
+      "title": "Agenda apa saja yang dihadirkan dalam ASIG?",
+      "description": "ASIG biasanya memiliki beberapa agenda penting untuk memberikan edukasi dan menghibur para pengunjung. Acara tersebut berupa Talkshow mengenai Teknologi Informasi, kompetisi game, bazaar makanan dan minuman, pameran games, sampai perhelatan musik bertemakan “Economical Music Paramadina” yang akan ditampilkan pada malam terakhir perhelatan ASIG."
     },
+
     {
       "id": 4,
-      "title": "Area Science IT and Games",
-      "imageUrl": "image-event-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 5,
-      "title": "Komunitas Belajar IT",
-      "imageUrl": "image-event-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Regeneration of Informatics",
-      "imageUrl": "image-event-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 7,
-      "title": "pelaksanaan kobit 2021",
-      "imageUrl": "image-berita-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 8,
-      "title": "pelaksanaan acara resmi reformatics 2021",
-      "imageUrl": "image-berita-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 9,
-      "title": "pelaksanaan acara IP routing 2021",
-      "imageUrl": "image-berita-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 10,
-      "title": "pelaksanaan kobit 2021",
-      "imageUrl": "image-berita-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 11,
-      "title": "pelaksanaan acara resmi reformatics 2021",
-      "imageUrl": "image-berita-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 12,
-      "title": "pelaksanaan acara IP routing 2021",
-      "imageUrl": "image-berita-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 13,
-      "title": "Undangan Webinar Series Seri Pertama",
-      "imageUrl": "image-news-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 14,
-      "title": "Undangan Webinar Series Seri Kedua",
-      "imageUrl": "image-news-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 15,
-      "title": "Undangan Webinar Series Seri Ketiga",
-      "imageUrl": "image-news-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 16,
-      "title": "Undangan Webinar Series Seri Pertama",
-      "imageUrl": "image-news-1.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 17,
-      "title": "Undangan Webinar Series Seri Kedua",
-      "imageUrl": "image-news-2.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
-    },
-    {
-      "id": 18,
-      "title": "Undangan Webinar Series Seri Ketiga",
-      "imageUrl": "image-news-3.png",
-      "ratio": {
-        "mobile": "1/6",
-        "md": "1/3"
-      }
+      "title": "Dimana tempat pelaksanaan ASIG?",
+      "description": "Acara ASIG diselenggarakan di kampus Universitas Paramadina yang berlokasi di Jl. Jend. Gatot Subroto Kav.97 Mampang Prapatan, Jakarta Selatan."
     }
   ]
 }

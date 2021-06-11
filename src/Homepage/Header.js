@@ -13,7 +13,7 @@ export default function Header() {
                     <br className="hidden lg:block" /> HIMTI PARAMADINA
                 </h1>
                 <div>
-                    <Link to="/news-item" className="bg-green-500 text-white hover:bg-black hover:text-white rounded-full px-8 py-3 mt-8 inline-block flex-none transition duration-200">
+                    <Link to="/News" className="bg-green-500 text-white hover:bg-black hover:text-white rounded-full px-8 py-3 mt-8 inline-block flex-none transition duration-200">
                         Info lebih lanjut
                     </Link>
                 </div>

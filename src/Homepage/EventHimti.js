@@ -29,18 +29,18 @@ export default function EventHimti({data}) {
 
                 <div className="grid grid-rows-1 md:grid-cols-3 grid-cols-1 gap-x-4 md:gap-y-10">
                     {
-                        data.map((item, id) => {
-                            return <div key={id}
+                        data.map((item) => {
+                            return <div key={item.id}
                                 className={` mb-8 md:mb-0 ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} 
                                 ${ratioClassName?.wrapper.md?.[item.ratio.md]}`}
                             >
-                                <Slide bottom delay={300 * id}>
-                                <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
-                                <div className=" bg-green-500">
+                                <Slide bottom delay={300 * item.id}>
                                     <Link to="/news-item" >
-                                        <h4 className="flex justify-center py-5 capitalize text-white">{item.title}</h4>
+                                        <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
+                                        <div className=" bg-green-500">
+                                            <h4 className="flex justify-center py-5 capitalize text-white">{item.title}</h4>
+                                        </div>
                                     </Link>
-                                </div>
                                 </Slide>
                             </div>
                         })

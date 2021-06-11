@@ -8,7 +8,7 @@ export default function header() {
                     <img style={{width: 247, height: 112}} src="/images/content/logohimti_2.png" alt="LogoaAboutUs" />
                 </div>
                 <div className="flex justify-center mt-7">
-                    <h3 className="capitalize font-semibold text-2xl">himti universitas paramadina</h3>
+                    <h3 className="capitalize font-semibold text-2xl text-blue-900">himti universitas paramadina</h3>
                 </div>
                     <div className="flex flex-wrap mt-24 bg-blue-900 rounded-lg">
                         <div className="md:w-1/2 mt-6">

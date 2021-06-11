@@ -6,6 +6,7 @@ import EventHimti from 'Homepage/EventHimti';
 import useModal from 'Hooks/useModal';
 import ApiHomePages from 'mockup-API/Api-Homepage.json';
 import Footer from 'Parts/Footer';
+import ApiBeritaHimti from 'mockup-API/Api-BeritaHimti.json';
 
 export default function Homepages() {
     useModal();
@@ -13,7 +14,7 @@ export default function Homepages() {
         <>
             <Navbar  theme="white" position="absolute" />
             <Header />
-            <BeritaHimti />
+            <BeritaHimti data={ApiBeritaHimti.beritahimti} />
             <EventHimti data={ApiHomePages.event} />
             <Footer />
         </>

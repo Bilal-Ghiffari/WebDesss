@@ -23,12 +23,12 @@ export default function Navbar({theme, position}) {
                             </NavLink>
                         </li>
                         <li className="mx-6 py-6 md:py-0">
-                            <NavLink to="/news" activeClassName="main-nav-active" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <NavLink to="/News" activeClassName="main-nav-active" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 NEWS
                             </NavLink>
                         </li>
                         <li className="mx-6 py-6 md:py-0">
-                            <NavLink to="/gallery" activeClassName="main-nav-active" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <NavLink to="/Gallery" activeClassName="main-nav-active" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 GALLERY
                             </NavLink>
                         </li>

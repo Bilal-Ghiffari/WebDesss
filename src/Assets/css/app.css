@@ -43,7 +43,7 @@
 }
 
 .social-links a {
-  @apply inline-block h-10 w-10 leading-10 rounded-full mr-5 px-1;
+  @apply inline-block h-10 w-10 leading-10 rounded-full ml-5 px-1;
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -66,23 +66,100 @@
 
 /* pagination */
 .paginationBttns {
-  @apply w-4/5 w-2/5 list-none flex justify-center md:justify-start my-7 md:mt-12 ml-7;
+  @apply w-4/5 w-2/5 list-none flex justify-center md:justify-end my-7 md:mt-12 ml-7;
 }
 
 .paginationBttns a {
   @apply m-2 cursor-pointer;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #2b2eff;
-  color: #2b2eff;
+  border: 1px solid #101820;
+  color: #101820;
 }
 
 .paginationBttns a:hover {
   color: white;
-  background-color: #2b2eff;
+  background-color: #101820;
 }
 
 .paginationActive a {
   color: white;
-  background-color: #2b2eff;
+  background-color: #101820;
+}
+
+.parallax-custom {
+  @apply bg-fixed w-28;
+}
+
+/* Hover news */
+.image-overlay {
+  @apply top-0 left-0 w-full h-full flex flex-col text-center justify-center text-white opacity-0 rounded-t-lg transition duration-300;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.25s;
+  backdrop-filter: blur(5px);
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+/* Carousel Slider */
+.slider-container {
+  @apply w-full relative m-auto overflow-hidden;
+  height: 80vh;
+}
+
+.active {
+  @apply inline-block;
+}
+
+.inactive {
+  display: none;
+}
+
+.slides {
+  @apply w-full relative;
+  height: 80vh;
+}
+
+.slide-image {
+  @apply w-full h-full absolute object-cover mt-16;
+}
+
+.slide-title,
+.slide-text {
+  @apply w-full h-full text-gray-600 absolute text-center top-2/4 z-10;
+}
+
+.slide-text {
+  top: 70%;
+}
+
+.prev,
+.Next {
+  @apply cursor-pointer absolute top-2/4 w-auto -mt-12;
+  z-index: 100;
+  padding: 1rem;
+  color: white !important;
+}
+
+.Next {
+  right: 0;
+}
+
+.all-dots {
+  @apply w-full h-full absolute flex justify-center;
+  top: 90%;
+  z-index: 200;
+}
+
+.dot {
+  @apply cursor-pointer inline-block mx-3 h-6 w-6;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.active-dot,
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
