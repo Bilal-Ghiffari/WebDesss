@@ -34,7 +34,7 @@ export default function Navbar({theme, position}) {
                         </li>
                         <li className="mx-6 py-6 md:py-0">
                             <NavLink to="/AboutUs" activeClassName="main-nav-active" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
-                                ABOUTUS
+                                ABOUT
                             </NavLink>
                         </li>
                     </ul>
