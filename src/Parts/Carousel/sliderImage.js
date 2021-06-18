@@ -4,7 +4,6 @@ let ImageSlider = [
         "description": "Anggota Himti Paramadina 2021",
         "url": "image-Slider-1.jpg"
     },
-
     {
         "title": "ASIG Himti Paramadina",
         "description": "Event ASIG ( Area of Science IT and Games )",

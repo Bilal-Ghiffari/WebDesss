@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HistoryHimti() {
     return (
-        <section className="mt-40 font-display">
+        <section className="mt-40 font-display mb-28">
             <div>
                 <div className="relative">
                     <img className="w-full object-cover object-center overflow-hidden" style={{height: 400}} src="/images/content/images-history.png" alt="imagesHistory" />

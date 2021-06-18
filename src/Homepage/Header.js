@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide';
 
 export default function Header() {
     return (
-            <Slide bottom>
+        <Slide bottom>
         <section className="flex items-center hero font-display">
             <div className="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption">
                 <h1 className="text-2xl md:text-4xl leading-tight font-medium  md:text-blue-900 text-white">
@@ -24,7 +24,7 @@ export default function Header() {
                     <div className="overlay right-0 bottom-0 md:inset-0">
                         <button
                             className="video hero-cta focus:outline-none z-30 modal-trigger"
-                            data-content='<div class="w-screen pb-56 md:w-88 md:pb-75 relative z-50">
+                            data-content='<div class="w-screen pb-56 md:w-96 md:pb-75 relative z-50">
                             <div class="absolute w-full h-full">
                             <iframe 
                             width="100%"
@@ -42,6 +42,6 @@ export default function Header() {
                 </div>
             </div>
         </section>
-            </Slide>
+        </Slide>
     )
 }

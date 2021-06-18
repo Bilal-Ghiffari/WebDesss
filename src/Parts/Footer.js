@@ -32,7 +32,7 @@ export default function Footer(){
     const [active, setActive] = useState(null)
     return (
         <section className="sitemap bg-blue-900 font-display">
-            <div className="py-12 mt-16 px-6">
+            <div className="py-12 mt-0 px-6">
                 <div className="flex justify-center mb-8 md:hidden">
                     <img src="/images/content/logo-footer.png" alt="Logo-mobile" />
                 </div>
@@ -74,7 +74,7 @@ export default function Footer(){
                             title="Connect With Us"
                         >
                             <li>
-                                <div className="social-links">
+                                <div className="social-links" >
                                     <a href="https://www.instagram.com/himtiparamadina/?hl=en" target="_blank" rel="noopener noreferrer">
                                         <i className="ri-instagram-line ri-2x"></i>
                                     </a>
