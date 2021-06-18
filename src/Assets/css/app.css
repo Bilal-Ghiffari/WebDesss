@@ -43,9 +43,17 @@
 }
 
 .social-links a {
-  @apply inline-block h-10 w-10 leading-10 rounded-full ml-5 px-1;
+  @apply inline-block h-10 w-10 leading-10 rounded-full px-1;
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-links a:nth-child(2) {
+  margin-left: 1.25rem;
+}
+
+.social-links a:nth-last-child(1) {
+  margin-left: 1.25rem;
 }
 
 .social-links a:hover {
@@ -66,25 +74,25 @@
 
 /* pagination */
 .paginationBttns {
-  @apply w-4/5 w-2/5 list-none flex justify-center md:justify-end my-7 md:mt-12 ml-7;
+  @apply w-4/5 w-2/5 list-none flex justify-center md:justify-start my-16;
 }
 
 .paginationBttns a {
   @apply m-2 cursor-pointer;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #101820;
-  color: #101820;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .paginationBttns a:hover {
-  color: white;
-  background-color: #101820;
+  color: #00880d;
+  background-color: #fff;
 }
 
 .paginationActive a {
-  color: white;
-  background-color: #101820;
+  color: #00880d;
+  background-color: #fff;
 }
 
 .parallax-custom {

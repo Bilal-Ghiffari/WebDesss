@@ -15,7 +15,6 @@ export default function NewsItem({data}) {
         }
     }
 
-    // gallery
 
     const [users] = useState(data.slice(0,19));
     const [pageNumber, setPageNumber] = useState(0)
@@ -43,9 +42,9 @@ export default function NewsItem({data}) {
     };
 
     return (
-        <section className="flex mt-10 font-display">
+        <section className="flex font-display bg-gray-800">
             <div className="container mx-auto">
-                <div className="flex justify-center text-4xl my-10 capitalize font-semibold text-blue-900">
+                <div className="flex justify-center text-4xl my-10 capitalize font-semibold text-white">
                     Gallery
                 </div>
                     <div className="grid grid-rows-1 md:grid-cols-3 grid-cols-1 gap-x-4 md:gap-y-10">

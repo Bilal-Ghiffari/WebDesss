@@ -1,6 +1,8 @@
 import React , {useState} from 'react';
 import ReactPaginate from 'react-paginate';
 import { Link } from 'react-router-dom';
+import LightSpeed from 'react-reveal/LightSpeed';
+
 
 
 export default function NewsItem({data}) {
@@ -26,7 +28,7 @@ export default function NewsItem({data}) {
     const displayUsers = users
     .slice(pagesVisited, pagesVisited + usersPerPage)
     .map((item) => {
-        return <div key={item.id} className={`mb-8 md:mb-0  ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} ${ratioClassName?.wrapper?.[item.ratio.md]}`}>
+        return <div key={item.id} className={`mb-8 md:mb-0 ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} ${ratioClassName?.wrapper?.[item.ratio.md]}`}>
                 <Link to={`/News/${item.url}/${item.title}/${item.id}`} >
                     <div className="relative">
                         <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
@@ -47,11 +49,13 @@ export default function NewsItem({data}) {
     };
 
     return (
-        <section className="flex mt-10 font-display">
+        <section className="flex font-display bg-blue-800">
             <div className="container mx-auto">
-                <div className="flex justify-center text-4xl my-10 capitalize font-semibold text-blue-900">
+            <LightSpeed left delay={2000}>
+                <div className="flex justify-center text-4xl capitalize font-semibold text-white my-20">
                     news item
                 </div>
+            </LightSpeed>
                     <div className="grid grid-rows-1 md:grid-cols-3 grid-cols-1 gap-x-4 md:gap-y-10">
                         {displayUsers}
                     </div>

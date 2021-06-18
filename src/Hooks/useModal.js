@@ -16,7 +16,7 @@ export default function useModal() {
             addClass(modalOverlay, modalWrapperClassName)
             const modalContent = document.createElement("div")
             modalContent.innerHTML = element.target.attributes?.["data-content"].value;
-            addClass(modalContent, "bg-white p-0 md:p-6 z-10");
+            addClass(modalContent, "bg-blue-900 p-0 md:p-6 z-10");
             modalWrapper.append(modalOverlay);
             modalWrapper.append(modalContent);
             document.body.append(modalWrapper);
