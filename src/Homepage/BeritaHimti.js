@@ -22,7 +22,7 @@ export default function BeritaHimti({data}) {
             <div className="container mx-auto">
                 <div className="flex flex-start mb-4">
                     <h3 className="md:text-3xl text-2xl text-blue-900 capitalize font-semibold">
-                        Berita Himti
+                        Berita HIMTI
                     </h3>
                 </div>
                 <div className="grid grid-rows-1 md:grid-cols-3 grid-cols-1 gap-4">

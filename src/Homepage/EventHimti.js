@@ -23,7 +23,7 @@ export default function EventHimti({data}) {
             <div className="container mx-auto">
                 <div className="flex py-8 justify-center">
                     <h3 className="md:text-3xl text-2xl text-white capitalize font-semibold">
-                        event himti
+                        event HIMTI
                     </h3>
                 </div>
 
