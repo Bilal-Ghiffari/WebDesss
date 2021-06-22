@@ -10,12 +10,11 @@ export default function AboutUs() {
     return (
         <>
             <Navbar theme="white" position="absolute" />
-                    <Parallax bgImage="/images/content/parallax1.jpg" bgClassName="parallax-custom" strength={600}>
+                    <Parallax bgImage="/images/content/parallax.png" bgClassName="parallax-custom" strength={600}>
                         <Header />
                         <HistoryHimti />
                         <Footer />
                     </Parallax>
-            
         </>
     )
 }
