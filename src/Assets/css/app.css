@@ -95,10 +95,6 @@
   background-color: #fff;
 }
 
-.parallax-custom {
-  @apply bg-fixed w-28;
-}
-
 /* Hover news */
 .image-overlay {
   @apply top-0 left-0 w-full h-full flex flex-col text-center justify-center text-white opacity-0 rounded-t-lg transition duration-300;
@@ -170,4 +166,18 @@
 .active-dot,
 .dot:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* gallery */
+figure {
+  @apply overflow-hidden;
+}
+
+.images-gallery img {
+  @apply transform scale-100 transition duration-500 ease-in-out;
+  cursor: zoom-in;
+}
+
+.images-gallery:hover img {
+  @apply transform scale-150;
 }

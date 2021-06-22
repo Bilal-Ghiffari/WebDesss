@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import LightSpeed from 'react-reveal/LightSpeed';
 
 
-
 export default function NewsItem({data}) {
     // Grid
     const ratioClassName = {

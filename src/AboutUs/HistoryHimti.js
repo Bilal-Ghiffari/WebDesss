@@ -1,12 +1,14 @@
 import React from 'react'
+import Roll from 'react-reveal/Roll';
+
 
 export default function HistoryHimti() {
     return (
+        <Roll right>
         <section className="mt-40 font-display mb-28">
             <div>
                 <div className="relative">
-                    <img className="w-full object-cover object-center overflow-hidden" style={{height: 400}} src="/images/content/images-history.png" alt="imagesHistory" />
-                <div className="absolute top-0 flex flex-wrap px-4 pt-3 md:pt-12">
+                <div className="top-0 flex flex-wrap px-4 pt-3 md:pt-12">
                     <div className="md:w-1/2 pb-3 md:pb-0">
                         <h3 className="capitalize text-4xl font-semibold text-white">the history</h3>
                     </div>
@@ -25,5 +27,6 @@ export default function HistoryHimti() {
                 </div>
             </div>
         </section>
+        </Roll>
     )
 }

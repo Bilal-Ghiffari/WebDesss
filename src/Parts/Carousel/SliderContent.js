@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 
 export default function SliderContent(props) {
-    return (
+    return ( 
         <section>
             {
                 sliderImage.map((slide, index) => {

@@ -1,7 +1,6 @@
 import React from 'react';
 import Jump from 'react-reveal/Jump';
-
-
+import Zoom from 'react-reveal/Roll';
 
 
 export default function header() {
@@ -13,9 +12,10 @@ export default function header() {
                     <img style={{width: 247, height: 112}} src="/images/content/logohimti_2.png" alt="LogoaAboutUs" />
                 </div>
                 <div className="flex justify-center mt-7">
-                    <h3 className="capitalize font-semibold text-2xl text-blue-900">himti universitas paramadina</h3>
+                    <h3 className="capitalize font-semibold text-2xl text-white">himti universitas paramadina</h3>
                 </div>
                 </Jump>
+                <Zoom left delay={1000}>
                     <div className="flex flex-wrap mt-24 bg-blue-900 rounded-lg">
                         <div className="md:w-1/2 mt-6">
                             <div className="flex justify-center">
@@ -50,6 +50,7 @@ export default function header() {
                             </div>
                         </div>
                     </div>
+                </Zoom>
             </div>
         </section>
     )

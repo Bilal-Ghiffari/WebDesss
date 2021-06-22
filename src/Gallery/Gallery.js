@@ -1,6 +1,8 @@
 import React , {useState} from 'react';
 import ReactPaginate from 'react-paginate';
 import { Link } from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom';
+
 
 export default function NewsItem({data}) {
     // Grid
@@ -28,7 +30,7 @@ export default function NewsItem({data}) {
         return <div key={item.id} className={`mb-8 md:mb-0  ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} ${ratioClassName?.wrapper?.[item.ratio.md]}`}>
             <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
             <div className="bg-gray-300">
-                <Link to={`/News/${item.url}/${item.title}/${item.id}`} >
+                <Link to={`/Gallery/${item.url}/${item.title}/${item.id}`} >
                     <h4 className="flex justify-center py-5 capitalize text-black">{item.title}</h4>
                 </Link>
                     <span className="flex justify-center text-sm text-gray-600 pb-4">{item.tanggal}</span>
@@ -42,7 +44,8 @@ export default function NewsItem({data}) {
     };
 
     return (
-        <section className="flex font-display bg-gray-800">
+        <Zoom>
+        <section className="flex font-display bg-blue-800">
             <div className="container mx-auto">
                 <div className="flex justify-center text-4xl my-10 capitalize font-semibold text-white">
                     Gallery
@@ -63,5 +66,6 @@ export default function NewsItem({data}) {
                     />
             </div>
         </section>
+        </Zoom>
     )
 }

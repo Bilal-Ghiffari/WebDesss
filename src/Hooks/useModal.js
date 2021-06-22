@@ -1,6 +1,7 @@
 import { addClass } from 'Format/classNameModif';
 import {useLayoutEffect} from 'react';
 
+
 export default function useModal() {
     useLayoutEffect(() => {
         const openModal = (element) => {

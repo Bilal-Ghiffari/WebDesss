@@ -5,6 +5,7 @@ import News from 'Pages/News';
 import NewsItem from 'Pages/NewsItem';
 import AboutUs from 'Pages/AboutUs';
 import Gallery from 'Pages/Gallery';
+import GalleryItem from 'Pages/GalleryItem';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path="/AboutUs" component={AboutUs} />
           <Route exact path="/News" component={News} />
           <Route path="/News/:url/:title/:id" component={NewsItem} />
-          <Route path="/Gallery" component={Gallery} />
+          <Route exact path="/Gallery" component={Gallery} />
+          <Route path="/Gallery/:url/:title/:id" component={GalleryItem} />
         </Switch>
       </Router>
       </div>

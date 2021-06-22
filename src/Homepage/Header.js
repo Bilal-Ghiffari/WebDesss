@@ -27,7 +27,7 @@ export default function Header() {
                             data-content='<div class="w-screen pb-56 md:w-96 md:pb-75 relative z-50">
                             <div class="absolute w-full h-full">
                             <iframe 
-                            width="100%"
+                            width="100%" 
                             height="100%" 
                             src="https://www.youtube.com/embed/f4eyqHP-kTw" title="YouTube video player" 
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
