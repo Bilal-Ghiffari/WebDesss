@@ -23,7 +23,7 @@ export default function EventHimti({data}) {
             <div className="container mx-auto">
                 <div className="flex py-8 justify-center">
                     <h3 className="md:text-3xl text-2xl text-white capitalize font-semibold">
-                        event himti
+                        event HIMTI
                     </h3>
                 </div>
 
@@ -34,8 +34,8 @@ export default function EventHimti({data}) {
                                 className={` mb-8 md:mb-0 ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} 
                                 ${ratioClassName?.wrapper.md?.[item.ratio.md]}`}
                             >
-                                <Slide bottom delay={300 * item.id}>
-                                    <Link to="/news-item" >
+                                <Slide bottom delay={200 * item.id}>
+                                    <Link to="/news" >
                                         <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
                                         <div className=" bg-green-500">
                                             <h4 className="flex justify-center py-5 capitalize text-white">{item.title}</h4>

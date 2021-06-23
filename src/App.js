@@ -6,6 +6,7 @@ import NewsItem from 'Pages/NewsItem';
 import AboutUs from 'Pages/AboutUs';
 import Gallery from 'Pages/Gallery';
 import GalleryItem from 'Pages/GalleryItem';
+import NotFound from 'Pages/NotFound';
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Homepages} />
-          <Route path="/AboutUs" component={AboutUs} />
-          <Route exact path="/News" component={News} />
-          <Route path="/News/:url/:title/:id" component={NewsItem} />
-          <Route exact path="/Gallery" component={Gallery} />
-          <Route path="/Gallery/:url/:title/:id" component={GalleryItem} />
+          <Route path="/about" component={AboutUs} />
+          <Route exact path="/news" component={News} />
+          <Route path="/news/:url/:title/:id" component={NewsItem} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route path="/gallery/:url/:title/:id" component={GalleryItem} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </Router>
       </div>

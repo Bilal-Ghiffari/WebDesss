@@ -10,10 +10,10 @@ export default function Header() {
             <div className="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption">
                 <h1 className="text-2xl md:text-4xl leading-tight font-medium  md:text-blue-900 text-white">
                     Mari bergabung bersama 
-                    <br className="hidden lg:block" /> HIMTI PARAMADINA
+                    <br className="hidden lg:block" /> HIMTI Universitas Paramadina
                 </h1>
                 <div>
-                    <Link to="/News" className="bg-green-500 text-white hover:bg-black hover:text-white rounded-full px-8 py-3 mt-8 inline-block flex-none transition duration-200">
+                    <Link to="/news" className="bg-green-500 text-white hover:bg-black hover:text-white rounded-full px-8 py-3 mt-8 inline-block flex-none transition duration-200">
                         Info lebih lanjut
                     </Link>
                 </div>

@@ -20,8 +20,11 @@ export default function GalleryItem() {
     return (
         <section className="my-10 font-display">
             <div className="container mx-auto">
-                <div className="my-10 flex justify-center">
-                    <h2 className="text-3xl font-semibold text-blue-900 uppercase">album asig 13</h2>
+                <div className="my-5 flex justify-center">
+                    <h2 className="text-3xl font-semibold text-blue-900 uppercase">album pelaksanaan asig 13</h2>
+                </div>
+                <div className="flex justify-center">
+                    <h2 className="text-xl font-light text-blue-900">32 Februari 5030</h2>
                 </div>
                 <SRLWrapper>
                 <div className="grid grid-rows-1 md:grid-cols-4 grid-cols-2 gap-3 mt-14">

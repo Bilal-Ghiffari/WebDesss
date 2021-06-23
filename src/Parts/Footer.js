@@ -40,7 +40,7 @@ export default function Footer(){
                     <div className="flex flex-wrap -mx-5 justify-center">
                         <ul className="md:w-3/12">
                             <li>
-                                <img className="md:flex md:justify-center md:mb-4 hidden" src="/images/content/logo-footer.png" alt="Logo Footer" />
+                                <img className="pl-4 md:flex md:justify-center md:mb-4 hidden" src="/images/content/logo-footer.png" alt="Logo Footer" />
                             </li>
                         </ul>
                         <FooterLinks
@@ -75,13 +75,13 @@ export default function Footer(){
                         >
                             <li>
                                 <div className="social-links" >
-                                    <a href="https://www.instagram.com/himtiparamadina/?hl=en" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.instagram.com/himtiparamadina" target="_blank" rel="noopener noreferrer">
                                         <i className="ri-instagram-line ri-2x"></i>
                                     </a>
-                                    <a href="https://twitter.com/himtiparamadina?lang=en" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://twitter.com/himtiparamadina" target="_blank" rel="noopener noreferrer">
                                         <i className="ri-twitter-line ri-2x"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/himti.univparamadina/?hc_ref=ARRYyRLpbQh1_1HriZg66NwX2eGQyJ6uj00WsF8jyQRoywzr03iu2aRzbEV9SbxTFj8&fref=nf&__tn__=kC-R" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.facebook.com/himti.univparamadina" target="_blank" rel="noopener noreferrer">
                                         <i className="ri-facebook-fill ri-2x"></i>
                                     </a>
                                 </div>
