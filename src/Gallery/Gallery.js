@@ -28,11 +28,11 @@ export default function NewsItem({data}) {
     .slice(pagesVisited, pagesVisited + usersPerPage)
     .map((item) => {
         return <div key={item.id} className={`mb-8 md:mb-0  ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} ${ratioClassName?.wrapper?.[item.ratio.md]}`}>
-            <Link to={`/Gallery/${item.url}/${item.title}/${item.id}`} >
+            <Link to={`/gallery/${item.url}/${item.title}/${item.id}`} >
                 <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
             </Link>
             <div className="bg-gray-300">
-                <Link to={`/Gallery/${item.url}/${item.title}/${item.id}`} >
+                <Link to={`/gallery/${item.url}/${item.title}/${item.id}`} >
                     <h4 className="flex justify-center py-5 capitalize text-black">{item.title}</h4>
                 </Link>
                     <span className="flex justify-center text-sm text-gray-600 pb-4">{item.tanggal}</span>

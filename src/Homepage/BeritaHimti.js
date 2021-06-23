@@ -30,7 +30,7 @@ export default function BeritaHimti({data}) {
                         data.map((item) => {
                             return <div key={item.id} className={`mb-8 md:mb-0 ${ratioClassName?.wrapper?.mobile?.[item.ratio.mobile]} ${ratioClassName?.wrapper?.md?.[item.ratio.md]}`}>
                                 <Slide bottom delay={300 * item.index}>
-                                <Link to={`/News/${item.url}/${item.title}/${item.id}`}>
+                                <Link to={`/news/${item.url}/${item.title}/${item.id}`}>
                                     <div className="relative">
                                         <img className="rounded-t-lg" src={`images/content/${item.imgUrl}`} alt="imageBeritaHimti" />
                                         <div className="image-overlay absolute">
