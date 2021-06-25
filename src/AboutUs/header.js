@@ -12,7 +12,7 @@ export default function header() {
                     <img style={{width: 247, height: 112}} src="/images/content/logohimti_2.png" alt="LogoaAboutUs" />
                 </div>
                 <div className="flex justify-center mt-7">
-                    <h3 className="capitalize font-semibold text-2xl text-white">himti universitas paramadina</h3>
+                    <h3 className="font-semibold text-2xl text-white">HIMTI Universitas Paramadina</h3>
                 </div>
                 </Jump>
                 <Zoom left delay={1000}>
@@ -23,8 +23,8 @@ export default function header() {
                             </div>
                             <div className="mt-6 flex justify-center">
                             <h3 className="font-normal text-gray-600 text-base break-all px-2 md:my-12">
-                                Menjadikan Himti Paramadina sebagai tempat yang mendukung segala <br />minat dan bakat seluruh anggota serta menjadi himpunan
-                                yang berperan <br />aktif baik pada Akademik  maupun non-Akademik, berjiwa kreatif serta <br />mendukung kemajuan riset dibidang Informatika 
+                                Menjadikan HIMTI Paramadina sebagai tempat yang mendukung segala <br />minat dan bakat seluruh anggota serta menjadi himpunan
+                                yang berperan <br />aktif baik pada Akademik  maupun non-Akademik, berjiwa kreatif serta <br />mendukung kemajuan riset dibidang Informatika. 
                             </h3>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export default function header() {
                                     Melaksanakan Pengabdian Masyarakat sebagai usaha dalam <br />mendukung kemajuan di bidang Informatika
                                 </li>
                                 <li className="font-normal text-gray-600 text-base">
-                                    Melaksanakan dan atau mengikuti kegiatan yang dapat <br />meningkatkan minat dan bakat seluruh anggota
+                                    Melaksanakan dan atau mengikuti kegiatan yang dapat <br />meningkatkan minat dan bakat seluruh anggota HIMTI
                                 </li>
                             </ul>
                             </div>

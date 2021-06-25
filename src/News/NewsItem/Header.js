@@ -31,8 +31,8 @@ export default function Header({data}) {
                     }
                 </div>
                 <div className="flex md:justify-start justify-center">
-                    <Link to="/news" className="capitalize my-12 bg-green-500 text-white hover:bg-black hover:text-white rounded-lg px-8 py-3 inline-block flex-none transition duration-200 ">
-                        back to news
+                    <Link to="/news" className="my-12 bg-green-500 text-white hover:bg-black hover:text-white rounded-lg px-8 py-3 inline-block flex-none transition duration-200 ">
+                        Back to News
                     </Link>
                 </div>
             </div>
