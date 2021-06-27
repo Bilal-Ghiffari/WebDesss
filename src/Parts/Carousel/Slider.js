@@ -7,7 +7,7 @@ import SliderContent from './SliderContent';
 export default function Slider() {
 
     const len = SliderImage.length - 1;
-    console.log(len);
+    // console.log(len);
     const [activeIndex, setActiveIndex] = useState(0);
     useEffect(() => {
         const interval = setInterval(() => {

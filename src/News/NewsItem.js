@@ -20,7 +20,7 @@ export default function NewsItem({data}) {
 
     const [users] = useState(data.slice(0,18));
     const [pageNumber, setPageNumber] = useState(0)
-    console.log(users)
+    // console.log(users)
     const usersPerPage = 6;
     const pagesVisited = pageNumber * usersPerPage;
 
