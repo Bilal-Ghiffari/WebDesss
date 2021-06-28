@@ -50,7 +50,7 @@ export default function NewsItem({data}) {
     return (
         <section className="flex font-display bg-blue-800">
             <div className="container mx-auto">
-            <LightSpeed left delay={2000}>
+            <LightSpeed left delay={1500}>
                 <div className="flex justify-center text-4xl capitalize font-semibold text-white my-20">
                     news item
                 </div>

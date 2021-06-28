@@ -1,7 +1,7 @@
 import React from 'react';
 import SliderImage from './SliderData';
 import { SRLWrapper } from "simple-react-lightbox";
-
+import { Link } from 'react-router-dom';
 
 
 export default function GalleryItem() {
@@ -43,6 +43,11 @@ export default function GalleryItem() {
                     }
                 </div>
                 </SRLWrapper>
+                <div className="flex md:justify-start justify-center">
+                    <Link to="/gallery" className="mt-12 mb-2 bg-green-500 text-white hover:bg-black hover:text-white rounded-lg px-8 py-3 inline-block flex-none transition duration-200 ">
+                        Back to Gallery
+                    </Link>
+                </div>
             </div>
         </section>
     )

@@ -13,7 +13,7 @@ export default function HistoryHimti() {
                         <h3 className="capitalize text-4xl font-semibold text-white">the history</h3>
                     </div>
                     <div className="md:w-1/2">
-                    <h4 className="font-normal text-gray-600 leading-7 hidden md:inline">
+                    <h4 className="font-normal text-gray-400 leading-7 hidden md:inline">
                         Pada tanggal 4 Desember 1994, dua yayasan, Yayasan Wakaf Paramadina dan Yayasan Pondok Mulya, yang masing-masing bergerak di bidang pendidikan dan berorientasi pada nilai-nilai Islam, sepakat untuk bekerja sama dan berencana mendirikan perguruan tinggi. dikukuhkan di hadapan Notaris Harun Kamil, No. 188 tanggal 27 Februari 1995. Sejak saat itu gagasan untuk mendirikan universitas mulai dikembangkan. Rangkaian diskusi yang diikuti oleh pengurus yayasan, kelompok Yayasan Isnet, kelompok BATAN, kelompok LIPI, dan pribadi-pribadi yang mencurahkan harapan dan gagasan tentang universitas yang hendak didirikan
                     </h4>
                     <h4 className="font-normal text-gray-600 leading-7 inline md:hidden">
