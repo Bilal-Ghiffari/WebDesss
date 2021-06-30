@@ -12,7 +12,7 @@ export default function Header({data}) {
         <section className="font-display">
             <div className="container mx-auto">
                 <div className="mt-20 flex justify-center">
-                    <h3 className="uppercase text-blue-900 text-4xl font-semibold">ASIG Himti Paramadina</h3>
+                    <h3 className="uppercase text-blue-900 text-3xl font-semibold">ASIG Himti Paramadina</h3>
                 </div>
                 <div className="mt-14">
                     <img className="w-full h-96 object-cover object-center" src="/images/content/image-event-1.png" alt="" />
