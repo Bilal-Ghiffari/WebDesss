@@ -18,10 +18,10 @@ export default function EventHimti({data}) {
 
 
     return (
-        <section className="flex bg-blue-800 mt-10 font-display py-16 px-4">
+        <section className="flex bg-blue-800 mt-10 font-display py-12 px-4">
             <Slide bottom>
             <div className="container mx-auto">
-                <div className="flex py-8 justify-center">
+                <div className="flex mb-8 justify-center">
                     <h3 className="md:text-3xl text-2xl text-white capitalize font-semibold">
                         event HIMTI
                     </h3>

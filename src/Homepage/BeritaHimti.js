@@ -17,10 +17,10 @@ export default function BeritaHimti({data}) {
 
 
     return (
-        <section className="flex bg-gray-100 mt-10 font-display py-16 px-4">
+        <section className="flex bg-gray-100 mt-10 font-display py-12 px-4">
             <Slide bottom>
             <div className="container mx-auto">
-                <div className="flex flex-start mb-4">
+                <div className="flex justify-center mb-8">
                     <h3 className="md:text-3xl text-2xl text-blue-900 capitalize font-semibold">
                         Berita HIMTI
                     </h3>

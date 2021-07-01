@@ -52,7 +52,7 @@ export default function NewsItem({data}) {
             <div className="container mx-auto">
             <LightSpeed left delay={1500}>
                 <div className="flex justify-center text-4xl capitalize font-semibold text-white my-20">
-                    news item
+                    news
                 </div>
             </LightSpeed>
                     <div className="grid grid-rows-1 md:grid-cols-3 grid-cols-1 gap-x-4 md:gap-y-10">
